@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0;
+box-sizing: border-box;}
+
+main{
+    width: 75%; margin: 50px auto;
+    border: 1px solid grey;
+    display:grid; color: white;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3, 1fr) 100px;
+    grid-gap: 20px;
+}
+
+   .div1{ background-color: rgb(248, 32, 32);
+    grid-column: 1/-1;
+
+}
+   .div2{ background-color: rgb(224, 30, 95);}
+   .div3{ background-color: rgb(60, 223, 39);}
+   .div4{ background-color: rgb(19, 138, 207);}
+   .div5{ background-color: brown;
+    grid-row: 2/4; grid-column: 4/5;
+}
+   .div6{ background-color: rgb(226, 133, 153);
+    grid-column: 1/4;
+}
+   .div7{ background-color: rgb(59, 13, 187);
+    grid-column: 1/-1;
+}
+   
